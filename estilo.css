@@ -1,41 +1,16 @@
 body {
-  background: pink;
-  margin: 0;
-  padding: 0;
-}
+  background: rgb(179, 210, 235)255, 235, 192);
+
 h1 {
   text-align: center;
 }
-.caixa1 {
-  position: absolute;
-  background: grey;
-  width: 200px;
-  height: 200px;
-  right: 0px;
-  bottom:0;
-}
-.caixa2 {
-  position: absolute;
-  background: rgb(44, 241, 26);
-  width: 200px;
-  height: 200px;
-  right: 0;
-  bottom: 205px;
-}
 
-.caixa3 {
-  position: absolute;
-  background: red;
-  width: 200px;
-  height: 200px;
-  right: 205px;
-  bottom:0;
-}
-.menuPrincipal{
+.menuPrincipal {
    position: absolute;
    width: 100%;
    height: 45px;
-   background: rgb(157, 170, 187);
+   background:rgb(161, 246, 252);
+   font-family: 'Courier New', Courier, monospace;
    top: 0;
    left: 0;
 }
@@ -50,63 +25,44 @@ li {
 }
 li a {
   display: block;
-  color: rgb(0, 0, 0);
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
 }
 li a:hover {
-  color: rgb(255, 255, 255);
-  background: black;
-}
-#urso {
-   width: 10%;
-}
-.caixaUrso {
+  background: rgb(139, 105, 201);
+  color: azure;
+ }
+ #Makonha{
+   width: 20%
+ }
+  .caixaMakonha{
     position: absolute;
-    top: 45px;
-    background: yellow;
-    width: 90%;
-    height: 165px;
-    margin: 20px;
-    border-color: blueviolet;
-    border-width: 20px;
-    border-style: solid;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-.caixaUrso2 {
-  position: absolute;
-  top: 0px;
-  right: 0;
-  width: 300px;
-  height: 165px;
-  display: flex;
-  justify-content: end;
-}
-.rodape {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 35px;
-  background: black;
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
-}
-.conteudo {
-   position: absolute;
-   top: 45px;
-}
-#aguia {
-   width: 100%;
-}
-.aguiaLogo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100px;
-  height: 100px;
-}
+    top: 150px;
+    width: 50%;
+    height: 150px;
+    right: 50%
+  }
+    .caixaMakonha2 {
+      position: absolute;
+      top: 45px;
+      width: 100%;
+      height: 160px;
+      background: rgb(118, 118, 241);
+      left: 0;
+      margin: 20px;
+      border-color: blue;
+      border-width: 20px;
+      border-style: solid;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+      .caixaMakonha3{
+        position: absolute;
+        top: 150px;
+        width: 50%;
+        height: 150px;
+        right: 50%
